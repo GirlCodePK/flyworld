@@ -1,0 +1,404 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  box-sizing: border-box;
+}
+
+.container1 {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 124vh;
+
+}
+
+.overly-img {
+  height: 750px;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  padding: 90px 10px;
+  color: antiquewhite;
+}
+
+.parent1 {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: black;
+  color: antiquewhite;
+  z-index: 1;
+}
+
+select {
+  color: antiquewhite;
+  border: none;
+  background-color: black;
+  cursor: pointer;
+  width: 130px;
+  font-size: 16px;
+  padding-left: 30px;
+}
+
+.text-overlay {
+  color: white;
+  font-size: 40px;
+  font-weight: 80;
+  line-height: 60px;
+  position: absolute;
+  top:20%;
+  left:10%;
+}
+
+.text-overlay-2 {
+  color: #BB8F13;
+  font-weight: 80;
+  font-size: 42px;
+  line-height: 50px;
+}
+.parent3{
+  position: absolute;
+  top:80%;
+  left:10%;
+}
+
+.learn-more {
+  background-color: aliceblue;
+  padding: 10px 30px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+ 
+}
+
+.contact-us {
+  background: none;
+  padding: 10px 30px;
+  font-size: 20px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.scroll-down {
+  position: absolute;
+  top:100%;
+  left:10%;
+  background: none;
+  font-size: 16px;
+  color: wheat;
+  border: none;
+  cursor: pointer;
+}
+.scroll-down-text {
+  font-size: 13px;
+  color: wheat;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top:100%;
+  left:13%;
+}
+.container-2 {
+  width: 100%;
+  background-color: #EDB107;
+  height: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.parent-4 {
+  width: 90%;
+  height: 600px;
+  display: flex;
+  overflow: hidden;
+  margin-top: 100px;
+}
+.child1-left {
+  width: 50%;
+  height: 600px;
+}
+
+.child2-right {
+  width: 30%;
+  height: 600px;
+ 
+}
+
+.Wildcat-Paragraph {
+  font-size: 0.9em;
+  font-weight: 530;
+  line-height: 20px;
+  margin-bottom: 44px;
+  color: #1e1e1e;
+}
+
+h6 {
+  font-size: 16px;
+  font-weight: 560;
+  color: #212121;
+}
+
+h1 {
+  color: #212121;
+  font-weight: 500;
+  font-size: 43px;
+  margin: 24px 0px;
+  line-height: 40px;
+}
+
+.sub-parent {
+  display: flex;
+  height: 110px;
+  justify-content: space-between;
+  width: 430px;
+}
+
+h2 {
+  color: #212121;
+  font-weight: 500;
+  font-size: 36px;
+  margin: 24px 0px;
+  line-height: 40px;
+}
+
+.button-contact {
+  border: white;
+  border-radius: 5px;
+  padding: 10px 40px;
+}
+
+.button-contact:hover {
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+.container-3 {
+  width: 100%;
+  background-color: #EDB107;
+  height: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.parent-5 {
+  width: 92%;
+  height: 600px;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.child3-left {
+  width: 44%;
+  height: 600px;
+}
+
+.child4-right {
+  width: 47%;
+  height: 600px;
+}
+
+.container-4 {
+  width: 100%;
+  background-color: white;
+  height: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.parent-6 {
+  width: 92%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.child4-left {
+  width: 42%;
+  height: 520px;
+}
+
+.child5-right {
+  width: 40%;
+  border-left: 2px solid #E0E3E5;
+  padding-left: 40px;
+  height: 320px;
+}
+
+fieldset {
+  border: 1px solid #E0E3E5;
+  margin: 10px;
+  padding: 12px;
+  border-radius: 6px;
+}
+
+input {
+  border: 1px solid #E0E3E5;
+  width: 370px;
+  padding: 20px 30px;
+  margin: 10px;
+  border-radius: 6px;
+}
+
+textarea {
+  border: 1px solid #E0E3E5;
+  width: 370px;
+  padding: 20px 30px;
+  margin: 10px;
+  border-radius: 6px;
+  height: 50px;
+}
+
+.submit-button {
+  margin: 20px;
+  border: none;
+  background-color: #BB8F13;
+  border-radius: 5px;
+  padding: 10px 70px;
+}
+
+.contact-text {
+  margin-left: 10px;
+  display: inline;
+  color: #616161;
+  font-size: 1.1em;
+}
+
+.continer-5 {
+  background-color: #EDB107;
+  height: 1250px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.parent-7 {
+  align-items: center;
+  justify-content: center;
+  height: 1150px;
+  width: 80%;
+}
+
+.row-1 {
+  height: 500px;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card-1 {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  padding-left: 12px;
+  height: 470px;
+  width: 47%;
+  background-color: #F6F9FC;
+  border-radius: 12px;
+}
+
+.row-2 {
+  height: 500px;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.team-logo {
+  display: inline-block;
+  margin: auto;
+}
+
+.h6 {
+  margin-top: 0%;
+  margin-bottom: 4%;
+  font-size: 19px;
+}
+
+.firstPara {
+  margin: 0%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.last-paragraph {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6a6a6a;
+}
+
+.footer {
+  background-color: black;
+  height: 230px;
+  width: 100%;
+  display: flex;
+}
+.row3 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.col1, .col2, .col3, .col4 {
+  color: #F6F9FC;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.heading {
+  margin: 0%;
+}
+.col2 {
+  height: 200px;
+
+}
+
+.input {
+  width: 260px;
+  padding: 10px 24px;
+  margin-left: 30px;
+}
+
+.button-sign-up {
+  background-color: #BB8F13;
+  padding: 10px 49px;
+  border-radius: 8px;
+  transform: translatex(-70px);
+  cursor: pointer;
+}
+
+.h7 {
+  margin-top: 10px;
+}
+.heading-6{
+  transform: translateY(-30px);
+  color:white;
+}
+.heading-7{
+  transform: translate(20px ,-50px);
+  line-height: 20px;
+  color:white;
+}
